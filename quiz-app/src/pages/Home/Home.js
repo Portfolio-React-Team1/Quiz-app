@@ -1,8 +1,11 @@
 import React from 'react'
+import Quizpage from '../QuizPage/Quizpage'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Quizpage/>
+    </div>
   )
 }
 
