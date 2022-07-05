@@ -1,0 +1,50 @@
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .box {
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: 200px auto auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 7px 10px lightgray;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+.text h2 {
+    font-size: 24px;
+    font-style: normal;
+}
+.box p {
+    
+    font-weight: 550;
+}
+.box .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttons button {
+    width: auto;
+    background-color: #218380;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 668px){
+    .main .box {
+        width: 210px;
+    }
+    .box .buttons {
+        flex-direction: row;
+    }
+}

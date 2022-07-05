@@ -2,12 +2,14 @@
 import './App.css';
 import Home from './pages/Home/Home'
 import Alldone from './pages/Alldone/Alldone'
+import Highscores from './pages/Highscores/Highscores';
 
 function App() {
   return (
     <div className="App">
-     <Home/>
+      {/* <Home />
       <Alldone />
+      <Highscores /> */}
     </div>
   );
 }
