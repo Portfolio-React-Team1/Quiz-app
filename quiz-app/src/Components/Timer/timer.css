@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+    color:#ffff;
+    font-size: 20px;
+    background-color:#218380 ;
+    text-align: center;
+}
+.timer{
+    margin-left:10px;
+}
