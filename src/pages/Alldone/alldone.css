@@ -1,10 +1,10 @@
 .alldone {
     width: 50%;
     height: 500px;
-    border: 2px solid rgb(81, 80, 80);
+    border: 2px solid lightgrey;
     margin: 80px auto;
     border-radius: 20px;
-    box-shadow: 8px 2px 10px rgb(104, 102, 102);
+    box-shadow: 8px 8px 8px lightgrey;
 }
 
 .alldone-details {
