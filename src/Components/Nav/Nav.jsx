@@ -1,5 +1,5 @@
 import React from "react";
-import "./nav.min.css";
+import "./nav.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Nav = () => {
@@ -7,14 +7,14 @@ const Nav = () => {
     <div>
       <ul className="nav customnav">
         <li className="nav-item">
-          <a className="nav-link " aria-current="page" href="#">
+          <a className="custom-nav-link " aria-current="page" href="Highscores">
             View Highscores
           </a>
         </li>
       </ul>
       <ul>
         <li className="position">
-          <a className="nav-link" href="#">
+          <a className="custom-nav-link" href="#">
             Time:
           </a>
         </li>

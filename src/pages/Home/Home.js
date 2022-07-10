@@ -1,9 +1,11 @@
 import React from "react";
 import "./home.css";
 import Nav from "../../Components/Nav/Nav";
-import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div>
       <Nav />
@@ -18,9 +20,9 @@ function Home() {
             Keep in mind that wrong anwers will penalize your score/time by 10
             sec
           </p>
-          <button type="button" className="btn customnav">
-            <Link to="/Quizpage">Start Quiz </Link>
-          </button>
+          <div className="nav">
+            <button onClick={() => navigate("/Quizpage")}>Start Quiz</button>
+          </div>
         </div>
       </div>
     </div>
