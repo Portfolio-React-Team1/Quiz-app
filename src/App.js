@@ -101,7 +101,7 @@ export default function App() {
             You scored {score} out of {questions.length}
             <button onClick={resetStateClick}>Retry</button>
             <div>
-              <p>Your Last Score: {recordedScore}</p>
+              <p>Previous score: {recordedScore}</p>
             </div>
           </div>
         ) : (

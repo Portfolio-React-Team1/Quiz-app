@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-  background-color: #555e7d;
+  background-color: black;
 }
 
 button:focus {
@@ -142,7 +142,7 @@ li a:hover {
   /*Tablets [601px -> 1200px]*/
   .app {
     background-color: white;
-    width: 500px;
+    width: 525px;
     min-height: 300px;
     border-radius: 15px;
     padding: 20px;
@@ -159,7 +159,7 @@ li a:hover {
   /*Big smartphones [426px -> 600px]*/
   .app {
     background-color: white;
-    width: 300px;
+    width: 325px;
     min-height: 300px;
     border-radius: 15px;
     padding: 20px;
@@ -177,7 +177,7 @@ li a:hover {
   /*Small smartphones [325px -> 425px]*/
   .app {
     background-color: white;
-    width: 200px;
+    width: 250px;
     min-height: 300px;
     border-radius: 15px;
     padding: 20px;
